@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7422530126635393598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3446911230662708652, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: _offlineModel._value
+      value: Online
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708653, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446911230662708659, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+        type: 3}
+      propertyPath: m_Name
+      value: NameObject-Realtime
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d64d47bb93b9f7478aaadaf3555b6fd, type: 3}
+--- !u!1 &5248941322513444749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3446911230662708659, guid: 9d64d47bb93b9f7478aaadaf3555b6fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 7422530126635393598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1804931435096467662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248941322513444749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d1945acfa57b94b93e0a5db2d2aef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5955614508151728450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248941322513444749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -363599832, guid: c424820a8880b8845bda10ec0b41507e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _realtime: {fileID: 0}
+  _sceneViewUUID: 
+  _viewUUID: 
+  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewDestroyWhenOwnerOrLastClientLeaves: 1
+  _sceneViewDestroyWhenOwnerOrLastClientLeavesMigrated: 0
+  _sceneViewDestroyWhenLastClientLeaves: 1
+  _components:
+  - componentID: 1
+    component: {fileID: 1804931435096467662}
+  _childViews: []
