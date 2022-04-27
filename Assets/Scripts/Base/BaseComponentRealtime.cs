@@ -6,6 +6,8 @@ public abstract class BaseComponentRealtime<TModelBase, TModelRealtime> : Realti
 {
 	public event Action OnModelArrived;
 
+	public bool IsOwnershipSupported => model.hasMetaModel;
+
 	protected TModelBase _offlineModel;
 
 	public virtual void SetOfflineModel(TModelBase model)
