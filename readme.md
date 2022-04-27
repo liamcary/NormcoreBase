@@ -1,4 +1,4 @@
-model i# Normcore Base
+# Normcore Base
 
 This is an experiment for creating a base class and workflow for easily producing offline and realtime prefabs in the Normcore multiplayer solution for Unity3D. 
 
